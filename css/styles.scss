@@ -21,10 +21,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .navbar{
   background-color:#4A7B5A !important;
+  padding: 1rem;
 }
 
+
+
 .contact-form {
-  max-width: 500px;
+  minimum-width: 992px;
   margin: 0 auto;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -58,10 +61,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   background-color: #4A7B5A;
 }
 
+
+
+
 footer {
   background-color: #4A7B5A;
   color: #fff;
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 .social-icons a {
