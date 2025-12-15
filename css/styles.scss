@@ -26,6 +26,50 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
 
+/* Fælles styling */
+section {
+  padding: 5rem 0;
+}
+
+/* Første (hvid) sektion */
+.cta-section {
+  background-color: #ffffff;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.cta-section p {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+}
+
+/* Grøn sektion */
+.community-section {
+  background-color: #4A7B5A; /* din grønne farve */
+}
+
+.community-section h2 {
+  color: #F1E19F; /* gul overskrift */
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.community-section p {
+  color: #000;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+}
+
+.community-section strong {
+  display: block;
+  font-weight: 700;
+}
+
+
 .contact-form {
   minimum-width: 992px;
   margin: 0 auto;
@@ -66,7 +110,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 footer {
   background-color: #4A7B5A;
-  color: #fff;
+  color: #000000;
   padding: 5rem 0;
 }
 
