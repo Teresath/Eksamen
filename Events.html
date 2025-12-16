@@ -15,9 +15,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -25,6 +22,9 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
 </head>
+
+<!-- Bootstrap CSS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 <body>
 
@@ -46,13 +46,128 @@
                     <a class="nav-link active" aria-current="page" href="Events.html">Events og workshops</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Tilmeld.html">Tilmeldning</a>
+                    <a class="nav-link" href="Tilmeld.html">Tilmelding</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
+
+<!-- HERO -->
+<section class="hero d-flex align-items-center justify-content-center text-center">
+    <h1 class="hero-title">Events og workshops</h1>
+    </section>
+
+
+<!-- EVENT -->
+<section class="container my-5">
+    <div class="row g-5">
+
+        <!-- Event info -->
+        <div class="col-md-7">
+            <h2>Kommende workshop</h2>
+            <p class="fw-bold">“På tur i vores Digital Innovationslab”</p>
+
+            <p>
+                Foregår onsdag d. 18/2-26 kl. 15.30 på Uddannelsesvej 22, 4600 Køge.
+            </p>
+
+            <p>
+                Tilmeld dig til vores næste workshop, hvor vi skal en tur i vores Digital Innovationslab. Denne gang sætter vi fokus på digitale-startups - men frygt ej, du behøver ingen iværksætterdrøm for at deltage. Alle er velkomne.
+            </p>
+
+            <p>Der vil være mad og drikke, så du kan holde dig kørende hele aftenen!</p>
+            <b>Gratis tilmelding.</b>
+        </div>
+
+        <a class="btn custom-btn">Tilmeld dig her</a>
+
+        <!-- Hvorfor deltage -->
+        <div class="col-md-5">
+            <div class="p-4 why-box">
+                <h3>Hvorfor deltage?</h3>
+                <ul class="list-unstyled mt-3">
+                    <li>⭐ Hjælp til at udvikle ideer</li>
+                    <li>⭐ Sparring med lokale virksomheder</li>
+                    <li>⭐ Udvid dit netværk</li>
+                    <li>⭐ Bliv en del af et fællesskab</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FEEDBACK -->
+<section class="feedback py-5">
+    <div class="container">
+        <h2 class="mb-4 text-center">Feedback fra deltagere</h2>
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card p-3">
+                    <p>
+                        “Jeg gik fra at have en idé til at stå med min egen virksomhed - det kunne jeg ikke have gjort uden Connected Starters.
+                        Kan klart anbefales hvis i går med samme drøm!!”
+                    </p>
+                    <b>- Mathilde</b>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card p-3">
+                    <p>
+                        “Connected Starters er det fedeste fællesskab med plads til alle! Jeg har aldrig haft en iværksætterdrøm, men jeg må ærligt indrømme, at jeg har fået øjnene op for det efter at have deltaget i deres events.”
+                    </p>
+                    <b>- Emil</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BILLEDE SLIDER -->
+<section class="container my-5">
+    <h2 class="mb-4 text-center">Billeder fra tidligere events</h2>
+
+    <div id="eventCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#eventCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#eventCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#eventCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="images/slide1.jpg" class="d-block w-100" alt="Event billede 1">
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/slide2.jpg" class="d-block w-100" alt="Event billede 2">
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/slide3.jpg" class="d-block w-100" alt="Event billede 3">
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#eventCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#eventCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+</section>
 
 
 <!-- ===== Footer ===== -->
