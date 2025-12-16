@@ -20,7 +20,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // 5. Du kan lave styling her...
 
 .navbar{
-  background-color:#4A7B5A !important;
+  background-color:#709270 !important;
 }
 
 
@@ -48,7 +48,7 @@ section {
 
 /* Grøn sektion */
 .community-section {
-  background-color: #4A7B5A;
+  background-color: #709270;
 }
 
 .community-section h2 {
@@ -103,25 +103,24 @@ section {
 }
 
 .contact-form button:hover {
-  background-color: #4A7B5A;
-}
-
-
-
-.hero-title {
-  color: #F1E19F;
+  background-color: #709270;
 }
 
 
 .why-box {
-  background-color: #4A7B5A; /* grøn */
+  background-color: #709270; /* grøn */
   color: #000000;            /* SORT tekst */
 }
 
 
 .feedback {
-  background-color: #4A7B5A;
+  background-color: #709270;
 }
+
+.feedback-text {
+  color: #F1E19F;
+}
+
 
 .carousel-item img {
   height: 500px;
@@ -139,12 +138,18 @@ section {
 }
 
 .custom-btn:hover {
-  background-color: #4A7B5A;
+  background-color: #709270;
 }
 
+.cta {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 footer {
-  background-color: #4A7B5A;
+  background-color: #709270;
   color: #000000;
   padding: 5rem 0;
 }
@@ -152,7 +157,6 @@ footer {
 .social-icons a {
   font-size: 1.25rem;
 }
-
 
 
 body {
